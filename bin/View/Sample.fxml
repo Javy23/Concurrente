@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: dcc594;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SampleController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6a7279" height="806.0" layoutX="415.0" layoutY="-5.0" stroke="#6a7279" strokeType="INSIDE" width="170.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6a7279" height="170.0" layoutY="315.0" stroke="#6a7279" strokeType="INSIDE" width="1000.0" />
+      <Line endX="10.0" layoutX="117.0" layoutY="397.5" startX="-100.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="404.0" layoutY="397.5" startX="-100.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="262.0" layoutY="397.5" startX="-100.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="546.0" layoutY="71.0" rotate="90.0" startX="-100.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="829.0" layoutY="397.5" startX="-100.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="687.0" layoutY="397.5" startX="-100.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="973.0" layoutY="397.5" startX="-100.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="547.0" layoutY="543.0" rotate="90.0" startX="-100.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="546.0" layoutY="712.0" rotate="90.0" startX="-100.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="472.0" layoutY="395.0" rotate="90.0" startX="50.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="546.0" layoutY="257.0" rotate="90.0" startX="-100.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Line endX="10.0" layoutX="471.0" layoutY="395.0" startX="50.0" stroke="#ffea00" strokeWidth="5.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#464646" height="170.0" layoutX="600.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#464646" height="170.0" layoutX="280.0" layoutY="458.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+      <Circle fx:id="v1" fill="#064a00" layoutX="639.0" layoutY="160.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="r1" fill="#5b0000" layoutX="639.0" layoutY="269.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="a1" fill="#654f00" layoutX="639.0" layoutY="214.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="v2" fill="#064a00" layoutX="265.0" layoutY="543.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="a2" fill="#654f00" layoutX="319.0" layoutY="543.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="r2" fill="#5b0000" layoutX="374.0" layoutY="543.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="imgVertical" fitHeight="150.0" fitWidth="150.0" layoutX="425.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgHorizontal" fitHeight="200.0" fitWidth="200.0" layoutX="160.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</Pane>
